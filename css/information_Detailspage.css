@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background: #224d77;
+}
+header nav{
+    width: 1190px;
+    height: 40px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0 40px;
+}
+/*联系电话和人才招聘*/
+.nav_phone{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    float: left;
+}
+.nav_right{
+    width: 144px;
+    height: 30px;
+    padding: 5px 0;
+    float: right;
+    line-height: 30px;
+}
+.nav_right .R{
+    float: right;
+    color: #ffffff;
+}
+.nav_right .L{
+    float: left;
+    color: #ffffff;
+}
+/*导航*/
+.nav_box{
+    width: 1190px;
+    height: 96px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.logo{
+    width: 194px;
+    height: 51px;
+    padding:10px 30px 10px 0;
+    float: left;
+}
+.nav_1{
+    width: 890px;
+    height: 31px;
+    float: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.drop_down{
+    width: 110px;
+    height:136px;
+    position: absolute;
+    bottom:-136px;
+    left:-20px;
+    flex-wrap: wrap;
+    background: #20385A;
+    display: none;
+}
+.drop_down li{
+    width: 100%;
+    height:21px;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.drop_down li:hover{
+    color: #3BA6CC;
+}
+.nav_1 li a:hover .drop_down {
+    display: block;
+}
+.nav_1 li a{
+    width: 100px;
+    line-height:31px;
+    float: left;
+    color: #1D3658;
+    position: relative;
+}
+.nav_1 li a:hover{
+    color: #91CEE2;
+}
+.search{
+    width: 32px;
+    height:32px;
+    background: #224d77;
+    float: right;
+    margin:20px 0 0 0;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.header_background{
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+}
+.nav_box .search:hover{
+    color: #224d77;
+    background: #ffffff;
+}
+.section1{
+    width:100%;
+    height: 60px;
+    background: #F9F9F9;
+    border-bottom: 1px solid #DDDDDD;
+}
+.section1 main{
+    width: 1200px;
+    height: 20px;
+    padding:20px 0;
+    margin:0 auto;
+}
+.section1 main a{
+    font-size:15px;
+    color: #000;
+}
+.section1 main span{
+    font-size: 15px;
+    color: #5080c4;
+}
+.section2{
+    padding: 60px 0  100px 0;
+    width: 100%;
+    height: 754px;
+}
+.section2 main{
+    width: 1200px;
+    height: 754px;
+    padding: 0 40px 0;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+
+}
+.section2 main .left{
+    width: 754px;
+    height: 774px;
+}
+.left .title{
+    width: 774px;
+    height: 41px;
+    padding: 20px 0 10px 0;
+}
+.left .qfe_wrapper{
+    width: 774px;
+    height:23px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.left .Article{
+    width: 774px;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    box-sizing: border-box;
+    height: 384px;
+}
+.left .date{
+    width:774px;
+    height:56px;
+}
+.date .left1{
+    padding:15px 0 15px 0;
+    width:387px;
+    float: left;
+    height: 26px;
+}
+.date .right1{
+    padding:15px 0 15px 0;
+    width:387px;
+    float: left;
+    height: 26px;
+}
+.left .Article_bottom{
+    width: 774px;
+    height: 86px;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+    display: flex;;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+.left .Article_bottom a{
+    display: block;
+    width:774px;
+    height: 20px;
+   font-size:14px ;
+    font-weight:normal ;
+    font-style:normal ;
+    font-family:默认 ;
+    color:#8c8c8c;
+}
+.left .Article_bottom a:hover {
+    color: #224D77;
+}
+.section2 main .right{
+    width: 355px;
+    height: 610px;
+
+}
+.section2 main .right .R_nav{
+    width:354px;
+    height: 65px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #666666;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.section2 main .right .R_nav1{
+    width:354px;
+    height:528px;
+}
+.section2 main .right .R_nav1 a{
+    display: block;
+    font-size:14px ;
+    width: 344px;
+    height: 67px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    font-size:14px;
+    color: #9e9e9e;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.section2 main .right .R_nav1 a:hover{
+    color: #224D77;
+}
+/*首页底部*/
+footer{
+    width: 100%;
+    height: 262px;
+    background: #224D77;
+}
+footer main{
+    width: 1200px;
+    height: 68px;
+    margin: 0 auto ;
+}
+footer main nav{
+    width: 1200px;
+    height: 28px;
+    padding: 20px 0;
+}
+footer main nav span{
+    display: block;
+    margin-right:80px;
+    font-size: 14px;
+    float: left;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+}
+footer main nav span:last-child{
+    margin-right: 0;
+}
+footer main nav ul{
+    width:214px;
+    height: 28px;
+    float: right;
+}
+footer main nav ul li i{
+    line-height:28px;
+    float: right;
+    margin-left: 10px;
+    color: #ffffff;
+}
+footer .bottom{
+    width: 100%;
+    height: 133px;
+    border-top: 1px solid #ffffff;
+}
+footer .bottom main{
+    width: 1200px;
+    height: 133px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom main a{
+    display: block;
+    float: left;
+    height: 20px;
+    padding-right:10px ;
+    border-right: 1px solid #ffffff;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight:400;
+    color: #ffffff;
+}
+footer .bottom main .L_address{
+    width: 975px;
+    height: 133px;
+}
+footer .bottom main .L_address .bottom_nav{
+    width:100%;
+    height: 21px;
+}
+footer .bottom main .L_address .iphone{
+    width: 975px;
+    height: 45px;
+    padding-top:20px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.copyright{
+    width:100%;
+    line-height:26px ;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+footer .bottom main .R_weixin{
+    width: 120px;
+    height: 133px;
+}
+footer .bottom main .R_weixin img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+footer .bottom main .R_weixin p{
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 8px;
+}
+footer .bottom main a:last-child{
+    border-right: 0;
+}
