@@ -135,103 +135,62 @@ header nav{
     color: #5080c4;
 }
 .section2{
-    width: 100%;
-    height: 455px;
-    padding: 100px 0;
-}
-.section2 .container{
-    width: 1200px;
-    height:457px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-.section2 .container_left{
-    width: 590px;
-    height: 450px;
-    background: #ffffff;
-    float: left;
-}
-.photo_show{
-    display: block;
-    margin: 0 auto;
-}
-.SmallPhoto_show{
-    display: block;
-    margin: 0 auto;
-}
-.section2 .container_right{
-    width: 590px;
-    height: 457px;
-    float: right;
-}
-.section2 .container_right .mobile{
-    width: 590px;
-    height: 64px;
-}
-.section2 .container_right .mobile h3{
-    width: 100%;
-    height: 32px;
-    padding-bottom: 8px;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    color: #224d77;
-}
-.section2 .container_right .header_subtitle{
-    font-family: century gothic;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    color: #afafaf;
-    padding: 2px;
-}
-.warpper{
-    width: 100%;
-    height: 24px;
-    border-bottom: 1px solid #EDEDED;
-}
-.share{
-    width: 100%;
-    height: 26px;
-    padding: 25px 0;
-    border-bottom: 1px solid #EDEDED;
-    font-size: 16px;
-    font-weight: normal;
-    color: #838383;
-}
-.mobile_1{
-    width: 100%;
-    height: 25px;
-    padding: 25px 0 15px 0;
-    font-size: 18px;
-    color: #9A9A9A;
-}
-.words{
-    width:550px;
-    height: 82px;
-    font-size: 13px;
-    color: rgb(102, 102, 102);
-    font-family: 微软雅黑;
-}
-.Paging{
     width:100%;
-    height: 86px;
-    padding-top: 60px;
+    height: 657px;
+    padding: 90px 0;
 }
-.Paging a{
-    display: block;
-    width: 100px;
+.section2 main{
+    width: 1200px;
+    height:100%;
+    margin:0 auto;
+    padding: 0 40px;
+    /*background: #01FBFB;*/
+    display: flex;
+    justify-content: space-between;
+}
+.section2 main .left{
+    width: 200px;
+    height: 131px;
+    padding-top: 30px;
+    border-top: 2px solid #90A6BB;
+}
+.section2 main .left a{
+    display:block;
+    width: 200px;
     height:23px;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 14px;
     font-weight: normal;
-    font-style: normal;
-    font-family: 默认;
-    color: #383838;
+    color: #888888;
+    border-bottom: 1px solid #E0E0E0 ;
 }
-.Paging a:hover{
-    color: red  ;
+.section2 main .left a:hover{
+    color: #66B2E9;
 }
+.section2 main .right{
+    width:920px ;
+    height:656px;
+    border-top: 2px solid #90A6BB;
+}
+.section2 main .right h2{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+	color: rgb(29, 54, 88);
+	margin-top: 30px;
+}
+.section2 main .right p{
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	margin: 30px 0;
+	font-size: 16px;
+	color: #808080;
+}
+
 /*页面底部*/
 footer{
     width: 100%;
@@ -339,3 +298,4 @@ footer .bottom main .R_weixin p{
 footer .bottom main a:last-child{
     border-right: 0;
 }
+

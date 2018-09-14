@@ -59,17 +59,25 @@ header nav{
     display: flex;
     justify-content: space-between;
 }
+.nav_1 .headers{
+    width: 100px;
+    height: 31px;
+    line-height:31px;
+    text-align: center;
+    color: #1d3658;
+    position: relative;
+
+}
 .drop_down{
     width: 110px;
     height:136px;
     position: absolute;
     bottom:-136px;
-    left:-20px;
-    flex-wrap: wrap;
+    left:-5px;
     background: #20385A;
     display: none;
 }
-.drop_down li{
+.drop_down li {
     width: 100%;
     height:21px;
     padding: 12px 0;
@@ -81,17 +89,10 @@ header nav{
 .drop_down li:hover{
     color: #3BA6CC;
 }
-.nav_1 li a:hover .drop_down {
+.nav_1 a .headers:hover .drop_down {
     display: block;
 }
-.nav_1 li a{
-    width: 100px;
-    line-height:31px;
-    float: left;
-    color: #1D3658;
-    position: relative;
-}
-.nav_1 li a:hover{
+.nav_1 .headers:hover{
     color: #91CEE2;
 }
 .search{
@@ -174,7 +175,7 @@ header nav{
 .section3 main .row1 .row1_right ul .lingying{
 float:right;
 margin-left:10px;
-background-image: url(../img/social_icon_24x24.png);
+background-image: url("../img/social_icon_24x24.png");
 background-repeat: no-repeat;
 height: 24px;
 width: 24px;

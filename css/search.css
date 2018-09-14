@@ -105,132 +105,142 @@ header nav{
     text-align: center;
     color: #ffffff;
 }
+.nav_box .search:hover{
+    color: #224d77;
+    background: #ffffff;
+}
 .header_background{
     width: 100%;
     height: 100%;
     background:#ffffff;
 }
-.nav_box .search:hover{
-    color: #224d77;
-    background: #ffffff;
-}
-.section1{
-    width:100%;
-    height: 60px;
-    background: #F9F9F9;
-    border-bottom: 1px solid #DDDDDD;
-}
-.section1 main{
-    width: 1200px;
-    height: 20px;
-    padding:20px 0;
-    margin:0 auto;
-}
-.section1 main a{
-    font-size:15px;
-    color: #000;
-}
-.section1 main span{
-    font-size: 15px;
-    color: #5080c4;
-}
 .section2{
     width: 100%;
-    height: 455px;
-    padding: 100px 0;
+    height: 574px;
+    padding: 90px 0 0;
 }
-.section2 .container{
+.section2 main{
     width: 1200px;
-    height:457px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-.section2 .container_left{
-    width: 590px;
-    height: 450px;
-    background: #ffffff;
-    float: left;
-}
-.photo_show{
-    display: block;
+    height: 574px;
     margin: 0 auto;
 }
-.SmallPhoto_show{
-    display: block;
+
+.section2 main .show{
+    width: 950px;
+    height:574px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content:flex-start;
+    flex-wrap: wrap;
 }
-.section2 .container_right{
-    width: 590px;
-    height: 457px;
-    float: right;
-}
-.section2 .container_right .mobile{
-    width: 590px;
-    height: 64px;
-}
-.section2 .container_right .mobile h3{
-    width: 100%;
-    height: 32px;
-    padding-bottom: 8px;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    color: #224d77;
-}
-.section2 .container_right .header_subtitle{
-    font-family: century gothic;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    color: #afafaf;
-    padding: 2px;
-}
-.warpper{
-    width: 100%;
-    height: 24px;
-    border-bottom: 1px solid #EDEDED;
-}
-.share{
-    width: 100%;
-    height: 26px;
-    padding: 25px 0;
-    border-bottom: 1px solid #EDEDED;
-    font-size: 16px;
-    font-weight: normal;
-    color: #838383;
-}
-.mobile_1{
-    width: 100%;
-    height: 25px;
-    padding: 25px 0 15px 0;
-    font-size: 18px;
-    color: #9A9A9A;
-}
-.words{
-    width:550px;
-    height: 82px;
-    font-size: 13px;
-    color: rgb(102, 102, 102);
-    font-family: 微软雅黑;
-}
-.Paging{
+.section2 main .show .words{
     width:100%;
-    height: 86px;
-    padding-top: 60px;
+    margin-top: 10px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    line-height: 18px;
 }
-.Paging a{
-    display: block;
-    width: 100px;
-    height:23px;
-    padding: 10px;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-family: 默认;
-    color: #383838;
+.section2 main .show li:hover .online{
+    width: 0;
+    height:2px;
+    background: rgba(255, 30, 0, 0.8);
+    animation: move_right 0.7s 0.1s cubic-bezier(0.59, 0.07, 0.23, 1.04) forwards;
 }
-.Paging a:hover{
-    color: red  ;
+@keyframes move_right{
+    from{
+        width:0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.section2 main .show li{
+    width:205px;
+    float: left;
+    height: 241px;
+    padding:10px;
+    border:1px solid rgba(232,232,232,1);
+    margin-bottom: 10px;
+    transition: all 0.1s 0.01s linear;
+}
+.section2 main .show li:hover{
+    box-shadow: 0 3px 10px 1px rgba(0,0,0,0.2);
+    transform:translateY(-3px);
+}
+.section3{
+	width: 100%;
+	height: 215px;
+	background-color: rgba(227,239,247,0.8);
+	overflow: hidden;
+	
+}
+
+.section3 h1{
+	font-size: 30px;
+	font-family: "宋体";
+	color: #333333;
+	font-weight: 400;
+	margin-top: 30px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.section3 .search2{
+	width: 810px;
+	height: 54px;
+	margin: 30px  auto 0;
+}
+.section3 input{
+	display: block;
+	width: 700px;
+	height: 50px;
+	float: left;
+	text-indent: 2em;
+	font-size: 15px;
+	color: #aaaaaa;
+	outline: none;
+	
+}
+.section3 .search1{
+	display: block;
+	width: 100px;
+	height: 54px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	line-height: 54px;
+	cursor: pointer;
+	background-color: #224d77;
+	color: #fff;
+
+}
+.hidden{
+	width: 1190px;
+	height: 20px;
+	margin: 20px auto 30px;
+}
+.hidden ul{
+	width:300px;
+	height: 100%;
+	float: right;
+	display: flex;
+	justify-content: space-between;
+
+}
+.hidden ul li{
+	height: 100%;
+	color: #1d3658;
+	text-align: center;
+	line-height: 20px;
+	border:1px solid #1d3658 ;
+	background-color: #fff;
+	cursor: pointer;
+}
+.hidden ul li:hover{
+	color: #fff;
+	background-color: #1d3658;
 }
 /*页面底部*/
 footer{
